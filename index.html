@@ -8,26 +8,56 @@
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <div class="box">
+      <div class="row">
+        <div class="col-sm">
+          <div class="text">
+            <h1> Get <span class="insights">insights</span> that help your business grow. </h1>
 
-  Get insights that help your business grow.
+            <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.</p>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+            <div class="attractions">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="row"><span class="number">10k+</span></div>
+                    <div class="row"><span class="description">companies</span></div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="row"><span class="number">314</span></div>
+                    <div class="row"><span class="description">templates</span></div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="row"><span class="number">12M+</span></div>
+                    <div class="row"><span class="description">queries</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="image-right">
+            <div class="color-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/rodrigovn">Rodrigo Vieira</a>.
   </div>
 </body>
 </html>
